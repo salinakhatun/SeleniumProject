@@ -14,12 +14,12 @@ public class AccountFeature extends SubBase {
      takeTheScreenshot(new Object(){}.getClass().getEnclosingMethod().getName());
     }
 
-//    @Test
-//    public void logout() throws Exception {
-//        loginToAccount();
-//
-//      //  logoutFromAccount();
-//    }
+    @Test
+    public void logout() throws Exception {
+        loginToAccount();
+        System.out.println("This is the logout testcase");
+      //  logoutFromAccount();
+    }
 
 
 
